@@ -1,0 +1,575 @@
+header {
+    display:flex;
+    padding-left:77px;
+    padding-top:68px;
+    position:absolute;
+    z-index:10;
+
+}
+header ul {
+    display:flex;
+    height:38px;
+   
+    
+}
+.header-logo {
+    top: 68px;
+    left: 77px;
+    height: 38px;
+    text-align: left;
+    font: normal normal normal 38px/46px Roboto Mono for Powerline;
+    letter-spacing: 3.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    
+}
+
+header ul li {
+    margin-top:9px;
+    margin-left:20px;
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto Mono for Powerline;
+    letter-spacing: 1.8px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+header ul li:first-child{
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto Mono for Powerline;
+    letter-spacing: 1.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+header span{
+    border-bottom:1px solid black;
+}
+
+.hamburger-menu {
+    display:none;
+}
+/* first-vier-wrapper/////////////
+///////////////////////////////
+/////////////////////////////// */
+
+.first-view {
+    
+    background:white;
+    /* width:100%; */
+    box-sizing:border-box;
+}
+.first-view-wrapper {
+    display:flex;
+}
+
+.ja {
+    text-align: left;
+    font: normal normal normal 38px/65px Hiragino Mincho Pro;
+    letter-spacing: 3.8px;
+    color: #000000;
+    opacity: 1;
+    margin-top:296px;
+    margin-left:163px;
+}
+
+.en {
+    text-align: left;
+    font: normal normal normal 38px/128px Zapfino;
+    letter-spacing: 3.8px;
+    color: #000000;
+    opacity: 1;
+    margin-top:48px;
+    margin-left:107px;
+}
+.sp1 {
+    display:none;
+}
+
+.sp2 {
+    display:none;
+}
+
+.sp3 {
+    display:none;
+}
+
+.first-view-theme {
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+/* concept/////////////
+///////////////////////////////
+/////////////////////////////// */
+
+.concept {
+    display:inline-block;
+    /* height:967px; */
+    width:100%;
+    background: linear-gradient(180deg, #A193861F 0%, #A193861F 42%, #A1938689 42%, #A1938689 100%);
+    padding-left:101px;
+    padding-top:256px;
+    padding-bottom:64px;
+}
+
+.concept h1 {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 5.4px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom:11px;
+    display:flex;
+    align-items:center;
+    
+    
+}
+.concept h1:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid;
+    width: 2em;
+    margin-right: 1.7rem;
+    margin-right: 0;
+    margin-left: 1.7rem; 
+}
+
+
+
+
+.concept-wrapper {
+    /* margin-left:101px;
+    margin-top:256px; */
+}
+
+.concept .images {
+    display:flex;
+}
+
+.concept-description {
+    display:flex;
+    margin-top:69px;
+    margin-left:73px;
+}
+
+.concept .image2 {
+    margin-left:11px;
+}
+
+.concept h2 {
+    text-align: left;
+    font: normal normal normal 40px/68px Hiragino Mincho Pro;
+    letter-spacing: 16px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.concept p {
+    text-align: left;
+    font: normal normal normal 16px/27px Hiragino Kaku Gothic Pro;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left:57px;
+
+}
+
+/* menu////////////////////
+/////////////////////////////
+///////////////////////////// */
+.menu {
+    padding-top:261px;
+    padding-left:107px;
+    padding-bottom:70px;
+    
+}
+
+
+
+.menu-item-description {
+    height:131px;
+    width:250px;
+    text-align: left;
+    font: normal normal normal 16px/19px Roboto Mono for Powerline;
+    letter-spacing: 1.6px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom:34px;
+    margin:0 auto;
+}
+
+.menu-items {
+    display:flex;
+}
+
+.menu h1 {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 5.4px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom:11px;
+    display:flex;
+    align-items:center;
+}
+
+.menu h1:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid;
+    width: 2em;
+    margin-right: 1.7rem;
+    margin-right: 0;
+    margin-left: 1.7rem; 
+}
+
+
+.menu-item-image {
+    height:271px;
+    width:271px;
+    margin-bottom:37px;
+}
+
+.menu-wrapper {
+    
+}
+
+.menu h2 {
+    text-align: center;
+    font: normal normal normal 30px/36px Roboto Mono for Powerline;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    margin:0 auto;
+    margin-bottom:34px;
+}
+
+.menu .price {
+    margin-left:0 auto;
+    margin-right:9px;
+    text-align: right;
+    font: normal normal normal 16px/19px Roboto Mono for Powerline;
+    letter-spacing: 1.6px;
+    color: #000000;
+    opacity: 1;
+}
+
+.menu-item {
+    margin-right:125px;
+}
+
+
+/* access/////////////////////
+///////////////////////////
+/////////////////////////// */
+
+.access {
+    background-color:#A193861F;
+    padding-top:261px;
+}
+
+.access-wrapper {
+    
+}
+
+.access-address-and-map {
+    display:flex;
+}
+
+.access h1 {
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 5.4px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left:107px;
+    display:flex;
+    align-items:center;
+}
+
+.access h1:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid;
+    width: 2em;
+    margin-right: 1.7rem;
+    margin-right: 0;
+    margin-left: 1.7rem; 
+}
+
+.access h3 {
+    text-align: left;
+    font: normal normal bold 24px/29px Roboto Mono for Powerline;
+    letter-spacing: 2.4px;
+    color: #00000038;
+    opacity: 1;
+    margin-bottom:30px;
+}
+
+.access-address p {
+    text-align: left;
+    font: normal normal normal 16px/19px Roboto Mono for Powerline;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.access-address {
+    background-color:#D0C5BA;
+    height:396.12px;
+    width:507px;
+    padding-top:101px;
+    padding-left:107px;
+}
+
+.access-address p {
+    margin-bottom:23px;
+}
+
+/* footer////////////////////
+//////////////////////////
+////////////////////////// */
+
+footer {
+    padding-left:103px;
+    padding-right:113px;
+    padding-top:164.5px;
+    padding-bottom:60px;
+}
+
+footer h1 {
+    text-align: left;
+    font: normal normal normal 32px/32px Roboto Mono for Powerline;
+    letter-spacing: 3.2px;
+    color: #7070704D;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-right:26px;
+}
+
+.footer-part {
+    display:flex;
+    align-items:center;
+}
+
+.footer-left {
+    display:flex;
+}
+
+.fa-twitter {
+    width: 20px;
+    height: 19px;
+    background: transparent url('img/長方形 6.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #00000000;
+    opacity: 1;
+    margin-right:9px;
+}
+
+.fa-facebook-f {
+    width: 22px;
+    height: 19px;
+    background: transparent url('img/長方形 7.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #00000000;
+    opacity: 1;
+    margin-right:547px;
+}
+
+footer button {
+    width: 184px;
+    height: 37px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto Mono for Powerline;
+    letter-spacing: 1.8px;
+    color: #707070;
+    opacity: 1;
+}
+
+.footer-wrapper {
+
+    padding-top:83.5px;
+    border-top: 1px solid #70707036;
+    opacity: 1;
+}
+/* 
+レスポンシブデザイン///////
+///////////////////////
+////////////////////// */
+@media(max-width:600px) {
+    header {
+        background-color:white;
+        width:100%;
+        height:70px;
+        padding-top:24px;
+        padding-left:21px;
+
+    }
+
+
+    .header-logo {
+        text-align: left;
+        font: normal normal normal 22px/26px Roboto Mono for Powerline;
+        letter-spacing: 2.2px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .hamburger-menu {
+        display:block;
+        margin-left:141px;
+    }
+    .pc1, .pc2, .pc3 {
+        display:none;
+    }
+
+    .sp1{
+        display:block;
+        height:597px;
+        
+    }
+    .first-view-image {
+        width:100%;
+        
+    }
+    .first-view{
+        height:597px;
+    }
+
+
+
+    .en {
+        position:absolute;
+        top:272px;
+        left:44px;
+        margin:0;
+        padding:0;
+        order:1; 
+        text-align: left;
+        font: normal normal normal 28px/95px Zapfino;
+        letter-spacing: 2.8px;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 16px #000000;
+        opacity: 1;
+    }
+
+    .ja {
+        position:absolute;
+        top:367px;
+        left:89px;
+        margin:0;
+        padding:0;
+        order:2;
+        text-align: left;
+        font: normal normal normal 23px/40px Hiragino Mincho Pro;
+        letter-spacing: 2.3px;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 16px #000000;
+        opacity: 1;
+    }
+
+    .sp2 {
+        display:block;
+        height:205px;
+        width:164px;
+    }
+
+    .sp3 {
+        display:block;
+        height:205px;
+        width:164px;
+    }
+
+    .concept-description {
+        display:block;
+        margin:0;
+        
+    }
+
+    .concept h1 {
+        margin-bottom:50px;
+
+    }
+    .concept h2 {
+        text-align: left;
+        font: normal normal normal 18px/31px Hiragino Mincho Pro;
+        letter-spacing: 7.2px;
+        color: #FFFFFF;
+        opacity: 1;
+        
+
+
+    }
+
+    .concept p {
+        text-align: left;
+        font: normal normal normal 16px/27px Hiragino Kaku Gothic Pro;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+        margin:0;
+    }
+
+    .concept {
+        padding:0;
+        padding-left:20px;
+        padding-top:60px;
+        height:711px;
+
+    }
+
+    .menu-items {
+        display:block;
+    }
+
+    .menu-item {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+
+
+    .menu {
+        height:100%
+    }
+
+    .access-address-and-map {
+        display:block;
+    }
+
+    .access {
+        height:100%;
+    }
+
+    .footer-part {
+       display:flex;
+       flex-direction:column; 
+    }
+
+    .footer-left{
+        order:2;
+        margin:0 auto;
+    }
+
+    footer button {
+        order:1;
+        margin:0 auto;
+        margin-bottom:61px;
+    }
+
+}
